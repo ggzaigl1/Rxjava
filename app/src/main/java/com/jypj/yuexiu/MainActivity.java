@@ -69,7 +69,7 @@ public class MainActivity extends BaseActivity {
     }
 
     /**
-     * 沉浸式
+     * 沉浸式设计
      */
     private void translucentStatusBar() {
         //5.0及以上
