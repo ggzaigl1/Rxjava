@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="34dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/loginname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/icon_yh"
+            android:drawablePadding="12dp"
+            android:hint="账号"
+            android:inputType="none"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="@drawable/main_color"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/icon_mm"
+            android:drawablePadding="14dp"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="@drawable/main_color"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/login"
+            style="@style/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:onClick="login"
+            android:enabled="true"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

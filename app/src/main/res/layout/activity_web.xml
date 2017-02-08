@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/loginblue">
+
+        <com.jypj.yuexiu.widget.BackButton style="@style/BackButton"/>
+
+        <TextView
+            android:id="@+id/web_title"
+            style="@style/title"
+            android:text="快讯详情"/>
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/activitywebview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hint"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/showError"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="页面加载失败,点击重新加载"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:visibility="gone" />
+</LinearLayout>

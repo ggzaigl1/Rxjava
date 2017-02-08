@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/loginblue">
+
+        <com.jypj.yuexiu.widget.BackButton style="@style/BackButton"/>
+
+        <TextView
+            android:id="@+id/notify_titletv"
+            style="@style/title"
+            android:text="通知公告"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/notify_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#00000000"
+        android:dividerHeight="10dp"
+        android:padding="10dp"/>
+</LinearLayout>

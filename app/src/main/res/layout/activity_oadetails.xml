@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bgwhite"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:background="@color/loginblue">
+
+        <com.jypj.yuexiu.widget.BackButton style="@style/BackButton"/>
+
+        <TextView
+            android:id="@+id/oadetailtitle"
+            style="@style/title"
+            android:text="OA详情"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/detailtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="转发：关于抓紧做好2015-2016年度教学计划"
+        android:textColor="@color/blue"
+        />
+
+    <ListView
+        android:id="@+id/oa_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="附件"
+    android:layout_marginLeft="@dimen/activity_margin"
+    android:textColor="@color/colorAccent"
+    />
+<LinearLayout
+    android:id="@+id/attachment"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></LinearLayout>
+</LinearLayout>

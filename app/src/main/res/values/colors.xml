@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg">#F2F2F0</color>
+    <color name="tabs">#FCFCFC</color>
+    <color name="hint">#B3B3B3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#333333</color>
+    <color name="blue">#3063A9</color>
+    <color name="line">#DDDDDD</color>
+    <color name="graybackground">#A3A4A5</color>
+    <color name="loginblue">#4487EC</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgwhite">#FAFAFA</color>
+    <color name="yellowtext">#F4BB42</color>
+</resources>
